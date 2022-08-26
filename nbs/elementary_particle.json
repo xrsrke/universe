@@ -1,0 +1,76 @@
+{
+    /////////////////// FERMIONS ///////////////////
+    // Quarks
+    "up": {
+        "electric_charge": 2/3,
+        "spin": 1/2
+    },
+    "charm": {
+        "electric_charge": 2/3,
+        "spin": 1/2
+    },
+    "top": {
+        "electric_charge": 2/3,
+        "spin": 1/2
+    },
+    "down": {
+        "electric_charge": -1/3,
+        "spin": 1/2
+    },
+    "strange": {
+        "electric_chage": -1/3,
+        "spin": 1/2
+    },
+    "bottom": {
+        "electric_chage": -1/3,
+        "spin": 1/2
+    },
+    // Leptons
+    "electron": {
+        "electric_chage": -1,
+        "spin": 1/2
+    },
+    "muon": {
+        "electric_chage": -1,
+        "spin": 1/2
+    },
+    "tau": {
+        "electric_chage": -1,
+        "spin": 1/2
+    },
+    "electron_neutrino": {
+        "electric_chage": 0,
+        "spin": 1/2
+    },
+    "muon_neutrino": {
+        "electric_chage": 0,
+        "spin": 1/2
+    },
+    "tau_neutrino": {
+        "electric_chage": 0,
+        "spin": 1/2
+    },
+    /////////////////// BOSONS ///////////////////
+    // Gauge Bosons
+    "gluon": {
+        "electric_chage": 0,
+        "spin": 1
+    },
+    "photon": {
+        "electric_chage": 0,
+        "spin": 1
+    },
+    "z_boson": {
+        "electric_chage": 0,
+        "spin": 1
+    },
+    "w_boson": {
+        "electric_chage": "+-1",
+        "spin": 1
+    },
+    // Scalar Boson
+    "higg_bosons": {
+        "electric_chage": 0,
+        "spin": 0
+    },
+}
