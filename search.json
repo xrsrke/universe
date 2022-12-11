@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "particle.html",
+    "href": "particle.html",
+    "title": "Elementary Parcile",
+    "section": "",
+    "text": "But to understand the standar model, it’s more convenience to use the language of particle.\nFermions are matter particles.\nBosons are force particles.\n\nDistinction between fermions and bosons\nLies in the quantum world. Particles that obey Pauli Exclusion Principle, they’re Fermions. Otherwise, they’re bosons.\n\n\nEverything can be reduced to just three matter particle (Fermions)\n\nElectron\nUp quark\nDown quark\nElectron neutrino\n\nProton have: two up quarks and a down\nNeutron have: two down quarks and an up\n\nsource\n\n\nParticle\n\n Particle ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\nFermion\nFermion made up all of particle in our universe.\n\nsource\n\n\nFermion\n\n Fermion ()\n\nInitialize self. See help(type(self)) for accurate signature.\nThere’re two categories of particle in Fermion: - Leptons - Quarks\n\nsource\n\n\nLepton\n\n Lepton ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nQuark\n\n Quark ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\nBoson\nBoson mediate how those matter interact with each other.\n\nsource\n\n\nBoson\n\n Boson ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nGaugeBoson\n\n GaugeBoson ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nsource\n\n\nScalarBoson\n\n ScalarBoson (name)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nDetails\n\n\n\n\nname\nthe name of the particle\n\n\n\n\nsource\n\n\nHiggsBoson\n\n HiggsBoson (name)\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\n\n\nDetails\n\n\n\n\nname\nthe name of the particle\n\n\n\n\n- Spin = 1 => the wave function behaves the same after 1 rotation\n- Spin = 1/2 => the wave function behaves the same after 2 rotations\n- Spin have to be conserve\n\n\nsource\n\n\nWaveFunction\n\n WaveFunction ()\n\nInitialize self. See help(type(self)) for accurate signature."
+  },
+  {
+    "objectID": "force.html",
+    "href": "force.html",
+    "title": "Force",
+    "section": "",
+    "text": "source\n\nForce\n\n Force ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\n\nElectromagnetic Force\n\nsource\n\n\nElectromagneticForce\n\n ElectromagneticForce ()\n\nInitialize self. See help(type(self)) for accurate signature."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "universe",
+    "section": "",
+    "text": "pip install universe\n\n\nContinue: https://youtu.be/mYcLuWHzfmE?t=497"
+  },
+  {
+    "objectID": "conservation.html",
+    "href": "conservation.html",
+    "title": "Conservation",
+    "section": "",
+    "text": "source\n\nConservation\n\n Conservation ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nEnergy Conservation\n\n\nLinear Momentum\n\n\nAngular Momentum\n\n\nSpin Conservation\n\nsource\n\n\n\nSpin\n\n Spin ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nPauli-Exclusion Principle\nFermions follow Pauli-Exclusion Principle\n\nclass PauliExclusionPrinciple(Conservation):\n    pass\n\n\n\nBose-Einstein Statistics\nBosons follow Bose-Einstein Statistics\n\nclass BoseEinsteinStatistics(Conservation):\n    pass"
+  }
+]
